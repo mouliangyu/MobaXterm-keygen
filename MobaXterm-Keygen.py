@@ -114,7 +114,7 @@ if __name__ == '__main__':
         MajorVersion = int(MajorVersion)
         MinorVersion = int(MinorVersion)
         GenerateLicense(LicenseType.Professional, 
-                        1,
+                        999,
                         sys.argv[1], 
                         MajorVersion, 
                         MinorVersion)
